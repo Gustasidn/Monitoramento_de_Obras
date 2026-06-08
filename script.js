@@ -7,8 +7,7 @@ const dadosObras = {
         previsao: "Início do segundo semestre de 2026",
         status: "Em andamento; cerca de 50% da drenagem já finalizada.",
         desvio: "A estação-tubo Eufrásio Correia está temporariamente desativada. As integrações que ocorriam nela migraram temporariamente para a Praça Rui Barbosa.",
-        impacto1: "<strong>Transporte Coletivo:</strong> A estação-tubo Eufrásio Correia está desativada. As linhas metropolitanas e urbanas foram redirecionadas para a Praça Rui Barbosa. A linha especial X48-Eufrásio/Rui Barbosa atua como conexão. Para conectar os usuários afetados, a Urbs criou a linha circular X48 - Eufrásio / Rui Barbosa. Ela opera com saídas a cada sete minutos nos horários de pico, ligando rapidamente a região da praça em obras até os novos pontos de parada na Praça Rui Barbosa.",
-        impacto2: "<strong>Trânsito:</strong> A pista lenta da Avenida Sete de Setembro (sentido Praça do Japão) está fechada para obras. Veículos de passeio são desviados pela Rua Barão do Rio Branco, Avenida Visconde de Guarapuava e Rua Lourenço Pinto"
+        impacto1: "<strong>Transporte Coletivo:</strong> A estação-tubo Eufrásio Correia está desativada. As linhas metropolitanas e urbanas foram redirecionadas para a Praça Rui Barbosa. A linha especial X48-Eufrásio/Rui Barbosa atua como conexão. Para conectar os usuários afetados, a Urbs criou a linha circular X48 - Eufrásio / Rui Barbosa. Ela opera com saídas a cada sete minutos nos horários de pico, ligando rapidamente a região da praça em obras até os novos pontos de parada na Praça Rui Barbosa.<br><br><strong>Trânsito:</strong> A pista lenta da Avenida Sete de Setembro (sentido Praça do Japão) está fechada para obras. Veículos de passeio são desviados pela Rua Barão do Rio Branco, Avenida Visconde de Guarapuava e Rua Lourenço Pinto",
     },
     "terminal": {
         titulo: "Terminal Capão da Imbuia",
@@ -18,9 +17,59 @@ const dadosObras = {
         previsao: "Expectativa de conclusão para outubro de 2027",
         status: "A obra está em andamento. O novo terminal está sendo levantado no terreno ao lado da estrutura atual (vizinho à Rua da Cidadania do Cajuru, entre as ruas Professor Nivaldo Braga e Professora Olga Balster).",
         desvio: "Como a nova estrutura está sendo construída na quadra ao lado, o terminal atual continua operando normalmente para o embarque e desembarque dos passageiros durante a maior parte do cronograma.",
-        impacto1: "<strong>Transporte Coletivo:</strong> Para os motoristas da região, os desvios de trânsito e bloqueios de faixas ocorrem pontualmente nas ruas do entorno (como as intervenções complementares do projeto Inter 2) conforme o avanço das escavações e pavimentação das vias adjacentes.",
-        impacto2: "<strong>Bloqueios principais:</strong> Trechos da Avenida Presidente Affonso Camargo e ruas vizinhas sofrem bloqueios e mudanças de sentido para fluxo de veículos e pedestres. O trânsito exige atenção redobrada e paciência dos motoristas, com registro de lentidão nos horários de pico. Motoristas são orientados a buscar rotas alternativas"
-    }
+        impacto1: "<strong>Transporte Coletivo:</strong> Para os motoristas da região, os desvios de trânsito e bloqueios de faixas ocorrem pontualmente nas ruas do entorno (como as intervenções complementares do projeto Inter 2) conforme o avanço das escavações e pavimentação das vias adjacentes. <br><br> <strong>Bloqueios principais:</strong> Trechos da Avenida Presidente Affonso Camargo e ruas vizinhas sofrem bloqueios e mudanças de sentido para fluxo de veículos e pedestres. O trânsito exige atenção redobrada e paciência dos motoristas, com registro de lentidão nos horários de pico. Motoristas são orientados a buscar rotas alternativas",
+    },
+     "camargo": {
+        titulo: "Avenida Affonso Camargo",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/affonsocamargo/images/slide5.jpg",
+        tipo: "Mobilidade urbana, incluindo nova pavimentação de concreto na canaleta, calçadas, ciclovia e construção/reforma de estações-tubo (Lote 2.3).",
+        inicio: " Setembro de 2025.",
+        previsao: "Final de 2026 a início de 2027.",
+        status: "Em andamento.",
+        desvio: "A faixa da esquerda no sentido bairro/Cajuru, na altura da Rodoferroviária, encontra-se bloqueada permanentemente para a instalação do alicerce da nova estação-tubo",
+        impacto1: "<strong>Canaleta e Desvios: </strong>A canaleta exclusiva de ônibus está bloqueada entre as ruas Mariano Torres e Zeila Moura dos Santos. Ônibus circulam pela via lenta e bloqueios pontuais de retornos continuam ocorrendo. <strong>Trânsito: </strong> O tráfego na via lenta está mais lento e congestionado nos horários de pico, exigindo atenção redobrada de pedestres, ciclistas e motoristas, além de redução de velocidade. A via passa a ter nova geometria, seguindo com apenas duas faixas no sentido bairro após a conclusão. <br><br><strong>Impacto no Trânsito: </strong> O tráfego na via lenta está mais lento e congestionado nos horários de pico, exigindo atenção redobrada de pedestres, ciclistas e motoristas, além de redução de velocidade. A via passa a ter nova geometria, seguindo com apenas duas faixas no sentido bairro após a conclusão.",
+    },
+    "brasilia": {
+        titulo: "Eixo da Avenida Brasília",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/avenidabrasilia/images/foto0.jpg",
+        tipo: "Requalificação viária profunda (incluindo drenagem, pavimentação e adequações para ônibus) e reestruturação geométrica, para permitir a circulação da nova frota de ônibus elétricos",
+        inicio: "Fevereiro de 2026.",
+        previsao: "Cerca de 18 meses, com término estimado para agosto de 2027.",
+        status: " As obras estão em andamento e a pleno vapor nos bairros Capão Raso e Novo Mundo, avançando por etapas.",
+        desvio: " As vias estão operando com bloqueios parciais e alterações localizadas no trânsito, acompanhadas de rotas alternativas sinalizadas pela Setran.",
+        impacto1: "<strong>Trânsito:</strong>Congestionamentos pontuais e lentidão nos horários de pico, com orientações para os motoristas redobrarem a atenção e, sempre que possível, buscarem caminhos alternativos para evitar o trecho em obras. ",
+    },
+    "viaduto": {
+        titulo: "Viaduto Curitiba/Pinhais",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/viadutocuritibapinhais/images/foto0.jpg",
+        tipo: " Obra de arte especial (viaduto). A estrutura terá 155 metros de extensão, três faixas de rolamento em cada sentido, além de ciclovias, calçadas e novas pontes marginais sobre o Rio Atuba.",
+        inicio: "As intervenções principais iniciaram no segundo semestre de 2025.",
+        previsao: "A conclusão e entrega da obra estão previstas para setembro de 2026.",
+        status: "A obra está em fase crucial. As vigas já foram fabricadas e as equipes trabalham na estrutura de sustentação. As pontes marginais sobre o Rio Atuba já foram concluídas e estão em operação.",
+        desvio: "Para permitir a execução da fundação central, o trânsito flui pelos lados da via. Os veículos que trafegam nos dois sentidos estão utilizando as pistas marginais e novas pontes. Há também desvios operacionais em ruas secundárias próximas para acessar bairros e retornos.",
+        impacto1: "<strong>Trânsito::</strong>O trânsito na região sofre estreitamento e lentidão, principalmente nos horários de pico, sendo recomendada atenção redobrada e uso de rotas alternativas para evitar o trecho da divisa.",
+    },
+    "bernardes": {
+        titulo: "Avenida Presidente Arthur Bernardes",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/arthurbernardes/images/foto0.jpg",
+        tipo: " Requalificação viária (pavimentação em concreto, novas pistas, drenagem) e ambiental (implantação de parque linear, ciclovias e jardins de infiltração).",
+        inicio: "Retomadas recentemente (abril de 2026).",
+        previsao: "Cerca de 12 a 15 meses a partir da retomada, dependendo do trecho, com término estimado entre meados e final de 2027.",
+        status: "Em andamento. A obra ocorre por etapas e tem causado interdições frequentes (geralmente aos finais de semana e em dias de semana em meia pista).",
+        desvio: "Nos dias de bloqueio total (geralmente nos fins de semana das 6h30 às 12h), os desvios indicados pela Setran são pelas ruas Airton Plaisant, Pedro Collere e Curupaitis. Linhas de ônibus sofrem alterações e desvios pontuais no itinerário, com desativação temporária da estação-tubo Santa Quitéria quando necessário.",
+        impacto1: "<strong>Trânsito::</strong>Trânsito lento nas imediações e vias alternativas nos trechos com bloqueio de faixa. O tráfego local sofre lentidão acentuada devido a interdições para maquinário pesado e obras de drenagem.",
+    },
+    "": {
+        titulo: "",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/affonsocamargo/images/slide5.jpg",
+        tipo: "",
+        inicio: " Setembro de 2025",
+        previsao: "",
+        status: "",
+        desvio: "",
+        impacto1: "<strong>Trânsito:</strong> ",
+    },
+    
 };
 const modal = document.getElementById("modal");
 let paginaAtual = 0;
@@ -38,8 +87,6 @@ function abrirModal(idDaObra){
     document.getElementById("modalDesvio").textContent = obra.desvio;
 
     document.getElementById("modalImpacto1").innerHTML = obra.impacto1;
-    document.getElementById("modalImpacto2").innerHTML = obra.impacto2;
-
     
 
     paginaAtual = 0;
