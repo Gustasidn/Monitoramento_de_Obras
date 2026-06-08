@@ -6,40 +6,95 @@
     <title>Monitoramento de Obras</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Monitoramento de Obras</h1>
         <p>Acompanhe as obras e possiveis impactos no trânsito</p>
     </header>
-    <main>
-        <section class="card">
-            <summary>
-                <img src="https://lp.curitiba.pr.gov.br/procuritiba/eufrasiocorreia/images/foto0.jpg"
-                    alt="Praça Eufrásio Correia"
-                    style="cursor: pointer;"
-                    onclick="abrirModal('praca')">
-                <h3>Praça Eufrásio Correia</h3>
-            </summary>    
-        </section>
 
-        <section class="card">
-            <summary>
-                <img src="https://lp.curitiba.pr.gov.br/procuritiba/terminalcapaodaimbuia/images/foto1.jpg"
-                 alt="Terminal Capão da Imbuia"
-                     style="cursor: pointer;"
-                     onclick="abrirModal('terminal')">
-                <h3>Terminal Capão da Imbuia</h3>
-            </summary>
-          </section>
+    <main>
+        <div class="categoria">
+            <h2 class="titulo-categoria">Obras do BRT Leste/Oeste</h2>
+            <div class="grid-cards">
+                
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/eufrasiocorreia/images/foto0.jpg"
+                            alt="Praça Eufrásio Correia"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('praca')">
+                        <h3>Praça Eufrásio Correia</h3>
+                    </summary>  
+                </section>
+
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/terminalcapaodaimbuia/images/foto1.jpg"
+                            alt="Terminal Capão da Imbuia"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('terminal')">
+                        <h3>Terminal Capão da Imbuia</h3>
+                    </summary>
+                </section>
+
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/affonsocamargo/images/slide5.jpg"
+                            alt="Avenida Affonso Camargo"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('camargo')">
+                        <h3>Avenida Affonso Camargo</h3>
+                    </summary>  
+                </section> 
+
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2 class="titulo-categoria">Obras do Inter 2</h2>
+            <div class="grid-cards">
+                
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/avenidabrasilia/images/foto0.jpg"
+                            alt="Eixo da Avenida Brasília"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('brasilia')">
+                        <h3>Eixo da Avenida Brasília</h3>
+                    </summary> 
+                </section>     
+
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/viadutocuritibapinhais/images/foto0.jpg"
+                            alt="Viaduto Curitiba/Pinhais"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('viaduto')">
+                        <h3>Viaduto Curitiba/Pinhais</h3>
+                    </summary>  
+                </section>  
+
+                <section class="card">
+                    <summary>
+                        <img src="https://lp.curitiba.pr.gov.br/procuritiba/arthurbernardes/images/foto0.jpg"
+                            alt="Avenida Presidente Arthur Bernardes"
+                            style="cursor: pointer;"
+                            onclick="abrirModal('bernardes')">
+                        <h3>Avenida Presidente Arthur Bernardes</h3>
+                    </summary>  
+                </section>  
+                
+                </div>
+        </div>
     </main>
 
    <div id="modal" class="modal-overlay">
-        
         <button class="seta seta-esquerda" onclick="anterior()">&#10094;</button>
 
         <div class="modal-content">
             <span class="fechar" onclick="fecharModal()">&times;</span>
-            
+        
             <div class="modal-body">
                 <div class="modal-textos">
                     <div class="pagina ativa">
@@ -50,24 +105,24 @@
                         <p><strong>Status: </strong><span id="modalStatus"></span></p>
                         <p><strong>Desvio: </strong><span id="modalDesvio"></span></p>
                     </div>
-                    
+    
                     <div class="pagina">
                         <h2>Impacto no trânsito</h2>
                         <p id="modalImpacto1"></p>
-                    </div> 
-                    <div class="pagina">
-                        <h2>Impacto no trânsito</h2>
-                        <p id="modalImpacto2"></p>
-                    </div> 
+                    </div>
+                    
                 </div>
-
                 <img id="modalImagem" src="" alt="Imagem da Obra">
             </div>
+
         </div>
-
         <button class="seta seta-direita" onclick="proximo()">&#10095;</button>
-
     </div>
+
     <script src="script.js"></script>
+
 </body>
+<footer>
+    <h1>A</h1>
+</footer>
 </html>
