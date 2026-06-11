@@ -47,7 +47,7 @@ const dadosObras = {
         previsao: "A conclusão e entrega da obra estão previstas para setembro de 2026.",
         status: "A obra está em fase crucial. As vigas já foram fabricadas e as equipes trabalham na estrutura de sustentação. As pontes marginais sobre o Rio Atuba já foram concluídas e estão em operação.",
         desvio: "Para permitir a execução da fundação central, o trânsito flui pelos lados da via. Os veículos que trafegam nos dois sentidos estão utilizando as pistas marginais e novas pontes. Há também desvios operacionais em ruas secundárias próximas para acessar bairros e retornos.",
-        impacto1: "<strong>Trânsito::</strong>O trânsito na região sofre estreitamento e lentidão, principalmente nos horários de pico, sendo recomendada atenção redobrada e uso de rotas alternativas para evitar o trecho da divisa.",
+        impacto1: "<strong>Trânsito:</strong>O trânsito na região sofre estreitamento e lentidão, principalmente nos horários de pico, sendo recomendada atenção redobrada e uso de rotas alternativas para evitar o trecho da divisa.",
     },
     "bernardes": {
         titulo: "Avenida Presidente Arthur Bernardes",
@@ -67,9 +67,20 @@ const dadosObras = {
         previsao: " Inicialmente estimada para dezembro de 2024, a conclusão sofreu diversos adiamentos, com as etapas finais estendendo-se ao longo de 2026.",
         status: " Em andamento e com canteiro de obras ativo. A prefeitura notificou a empresa responsável dezenas de vezes devido ao atraso no cronograma",
         desvio: " Interdições parciais e estreitamentos de pista de até 700 metros. Os veículos que seguem no sentido Atuba são direcionados para a parte ampliada da estrutura.",
-        impacto1: "<strong>Impactos no Trânsito:</strong> Alto índice de lentidão e formação de filas, principalmente nos horários de pico, com reflexos no tráfego de vias próximas ",
+        impacto1: "<strong>Trânsito:</strong> Alto índice de lentidão e formação de filas, principalmente nos horários de pico, com reflexos no tráfego de vias próximas ",
     },
     
+    "trincheira": {
+        titulo: "Trincheira da Lothário Meissner",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/lothariomeissner/images/foto0.jpg",
+        tipo: " Obra de arte especial (trincheira aberta) com readequação viária em cerca de dez ruas do entorno.",
+        inicio: " O edital de licitação foi lançado em abril de 2026. O início das obras no local está planejado para o mês de junho de 2026",
+        previsao: " Cerca de 18 meses após a assinatura da ordem de serviço.",
+        status: "Em fase de licitação/planejamento inicial. O convênio entre a Prefeitura e o Governo do Estado foi formalizado e os editais de concorrência foram publicados no sistema E-Compras",
+        desvio: "A execução será faseada para evitar bloqueios totais. Os impactos severos no fluxo de veículos são esperados pela Secretaria de Obras, sendo comparados à magnitude das intervenções do Viaduto do Tarumã.",
+        impacto1: "<strong>Etapa 1 (Preparação):</strong>  Pavimentação das ruas de desvio (Ruas Eng. Gottardo Bottarelli e Cel. João da Silva Sampaio), abertura de alças laterais e canteiros centrais. <br><strong>Etapa 2 (Sentido BR-116):</strong>Bloqueio de faixas no sentido BR-116 da Av. Lothário Meissner, fechamento da ligação com a Rua Said Fatuch (que ficará sem saída) e bloqueio parcial da Av. Alberto Twardowski. <br><strong>Etapa 3 (Sentido Omar Sabbag):</strong> Bloqueio das faixas da Lothário Meissner no sentido oposto e alteração de tráfego na Alberto Twardowski. <br><strong>Etapa 4 (Conclusão):</strong> Bloqueio da Rua Eng. Ostoja Roguski e fechamento permanente da ligação com a Rua Dr. Jorge Meyer Filho. ",
+    },
+
     "": {
         titulo: "",
         imagem: "https://lp.curitiba.pr.gov.br/procuritiba/affonsocamargo/images/slide5.jpg",

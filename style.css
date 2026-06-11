@@ -5,6 +5,7 @@
 --cor-titulo: #800804;
 --branco: #E7E4DF;
 --preto: #000000;
+--titulo: #FF5C00;
 }
 
 *{
@@ -19,10 +20,9 @@ header{
     background-color: rgba(255, 255, 255, 0.107);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--cor-header);
     padding: 30px 20px;
     text-align: center;
-    color: var(--cor-titulo);
+    color: var(--titulo);
 }
 
 body {
