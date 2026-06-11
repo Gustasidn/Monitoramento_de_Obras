@@ -217,10 +217,4 @@ footer{
     text-align: center;
     padding: 20px;
     background-color: var(--cor-header);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--cor-header);
-    padding: 30px 20px;
-    text-align: center;
-    color: var(--cor-titulo);
 }

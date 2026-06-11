@@ -57,8 +57,19 @@ const dadosObras = {
         previsao: "Cerca de 12 a 15 meses a partir da retomada, dependendo do trecho, com término estimado entre meados e final de 2027.",
         status: "Em andamento. A obra ocorre por etapas e tem causado interdições frequentes (geralmente aos finais de semana e em dias de semana em meia pista).",
         desvio: "Nos dias de bloqueio total (geralmente nos fins de semana das 6h30 às 12h), os desvios indicados pela Setran são pelas ruas Airton Plaisant, Pedro Collere e Curupaitis. Linhas de ônibus sofrem alterações e desvios pontuais no itinerário, com desativação temporária da estação-tubo Santa Quitéria quando necessário.",
-        impacto1: "<strong>Trânsito::</strong>Trânsito lento nas imediações e vias alternativas nos trechos com bloqueio de faixa. O tráfego local sofre lentidão acentuada devido a interdições para maquinário pesado e obras de drenagem.",
+        impacto1: "<strong>Trânsito:</strong>Trânsito lento nas imediações e vias alternativas nos trechos com bloqueio de faixa. O tráfego local sofre lentidão acentuada devido a interdições para maquinário pesado e obras de drenagem.",
     },
+    "taruma": {
+        titulo: "Complexo do Tarumã",
+        imagem: "https://lp.curitiba.pr.gov.br/procuritiba/complexotaruma/images/foto0.jpg",
+        tipo: "Requalificação de tráfego, duplicação estrutural (de 24 para 50 metros de largura) e implantação de canaletas exclusivas de concreto. Inclui duas novas estações-tubo (Tarumã e Victor do Amaral).",
+        inicio: " Janeiro de 2023",
+        previsao: " Inicialmente estimada para dezembro de 2024, a conclusão sofreu diversos adiamentos, com as etapas finais estendendo-se ao longo de 2026.",
+        status: " Em andamento e com canteiro de obras ativo. A prefeitura notificou a empresa responsável dezenas de vezes devido ao atraso no cronograma",
+        desvio: " Interdições parciais e estreitamentos de pista de até 700 metros. Os veículos que seguem no sentido Atuba são direcionados para a parte ampliada da estrutura.",
+        impacto1: "<strong>Impactos no Trânsito:</strong> Alto índice de lentidão e formação de filas, principalmente nos horários de pico, com reflexos no tráfego de vias próximas ",
+    },
+    
     "": {
         titulo: "",
         imagem: "https://lp.curitiba.pr.gov.br/procuritiba/affonsocamargo/images/slide5.jpg",
